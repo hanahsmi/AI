@@ -1,0 +1,102 @@
+body { 
+    background-color: pink;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 70px; 
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+h1, h2, h3, p, li, td, th, label {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: wavy;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: darkred;
+}
+
+.nav a {
+    color: white;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: red;
+}
+
+.card {
+    background-color: #ff69b4;
+    color: white;
+    padding: 15px;
+    margin: 15px 0;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ff69b4;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #ff85c1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    table {
+    font-size: 12px;
+    }
+
+    .nav a {
+    display: block;
+    margin: 8px 0;
+   }
+ } 
